@@ -8,9 +8,9 @@ import (
 
 	"github.com/blang/semver"
 
-	"github.com/concourse/semver-resource/driver"
-	"github.com/concourse/semver-resource/models"
-	"github.com/concourse/semver-resource/version"
+	"github.com/scopej/semver-resource/driver"
+	"github.com/scopej/semver-resource/models"
+	"github.com/scopej/semver-resource/version"
 )
 
 func main() {

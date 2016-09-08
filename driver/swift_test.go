@@ -5,11 +5,11 @@ import (
 	"os"
 
 	"github.com/blang/semver"
-	"github.com/concourse/semver-resource/models"
-	"github.com/concourse/semver-resource/version"
 	"github.com/rackspace/gophercloud"
 	"github.com/rackspace/gophercloud/openstack/objectstorage/v1/containers"
 	"github.com/rackspace/gophercloud/openstack/objectstorage/v1/objects"
+	"github.com/scopej/semver-resource/models"
+	"github.com/scopej/semver-resource/version"
 
 	. "github.com/onsi/ginkgo"
 	"github.com/onsi/ginkgo/config"

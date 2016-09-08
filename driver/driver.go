@@ -9,8 +9,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/blang/semver"
-	"github.com/concourse/semver-resource/models"
-	"github.com/concourse/semver-resource/version"
+	"github.com/scopej/semver-resource/models"
+	"github.com/scopej/semver-resource/version"
 )
 
 type Driver interface {

@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/concourse/semver-resource",
+	"ImportPath": "github.com/scopej/semver-resource",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v74",
 	"Packages": [

@@ -4,7 +4,7 @@ image: docker:///concourse/static-golang
 
 inputs:
 - name: semver-resource
-  path: gopath/src/github.com/concourse/semver-resource
+  path: gopath/src/github.com/scopej/semver-resource
 
 outputs:
 - name: built-resource
@@ -16,4 +16,4 @@ params:
   SEMVER_TESTING_REGION:
 
 run:
-  path: gopath/src/github.com/concourse/semver-resource/scripts/ci
+  path: gopath/src/github.com/scopej/semver-resource/scripts/ci

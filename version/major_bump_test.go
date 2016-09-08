@@ -2,9 +2,9 @@ package version_test
 
 import (
 	"github.com/blang/semver"
-	"github.com/concourse/semver-resource/version"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/scopej/semver-resource/version"
 )
 
 var _ = Describe("MajorBump", func() {
